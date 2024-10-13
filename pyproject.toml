@@ -11,10 +11,9 @@ authors = [
     {name = "Flax team", email = "flax-dev@google.com"},
 ]
 dependencies = [
-    "numpy>=1.23.2; python_version>='3.11'",
-    "numpy>=1.26.0; python_version>='3.12'",
+    "numpy",
     # keep in sync with jax-version in .github/workflows/build.yml
-    "jax>=0.4.27",
+    "jax",
     "msgpack",
     "optax",
     "orbax-checkpoint",
